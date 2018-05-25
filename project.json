@@ -2,6 +2,7 @@
   "name": "alexa",
   "description": "Project for Alexa",
   "nameTemplate": "alexa-{{.Function.Name}}",
+  "runtime": "nodejs8.10",
   "memory": 128,
   "timeout": 60,
   "role": "",

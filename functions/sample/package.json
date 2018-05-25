@@ -17,6 +17,8 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -f *.js *.js.map && rm -f src/*.js src/*.js.map",
+    "predeploy": "npm run build",
+    "deploy": "cd ../../ && apex deploy idiom",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
